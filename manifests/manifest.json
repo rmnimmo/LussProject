@@ -137,7 +137,7 @@
           "service" : {
             "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@id" : "https://collections.st-andrews.ac.uk/iiif/2/376271~376271"
+            "@id" : "https://view.nls.uk/iiif/2052/1247/205212470.5"
           }
         },
         "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e#xywh=10,10,10,10"
