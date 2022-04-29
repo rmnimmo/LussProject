@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 114,
+    "height" : 86
+  }, {
+    "width" : 228,
+    "height" : 171
+  }, {
+    "width" : 456,
+    "height" : 342
+  }, {
+    "width" : 912,
+    "height" : 684
+  }, {
+    "width" : 1824,
+    "height" : 1368
+  }, {
+    "width" : 3648,
+    "height" : 2736
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3648,
+  "@id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2736
+}
