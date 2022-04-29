@@ -1,0 +1,13 @@
+{
+  "id" : "https://rmnimmo.github.io/LussProject/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in rmnimmo/LussProject project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://rmnimmo.github.io/LussProject/manifests/manifest.json",
+    "label" : "Views of Loch Lomond"
+  } ]
+}
