@@ -1,0 +1,66 @@
+{
+  "id" : "https://rmnimmo.github.io/LussProject/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in rmnimmo/LussProject project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 3648,
+    "id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755/canvas/",
+    "label" : {
+      "none" : [ "IMG_20220426_085755" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 114,
+              "height" : 86
+            }, {
+              "width" : 228,
+              "height" : 171
+            }, {
+              "width" : 456,
+              "height" : 342
+            }, {
+              "width" : 912,
+              "height" : 684
+            }, {
+              "width" : 1824,
+              "height" : 1368
+            }, {
+              "width" : 3648,
+              "height" : 2736
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3648,
+            "@id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2736
+          } ],
+          "format" : "image/jpeg",
+          "width" : 3648,
+          "id" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2736
+        },
+        "target" : "https://rmnimmo.github.io/LussProject/images/IMG_20220426_085755/canvas/"
+      } ]
+    } ],
+    "height" : 2736
+  } ]
+}
