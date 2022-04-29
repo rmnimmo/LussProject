@@ -133,307 +133,47 @@
         "on" : "http://eb4902e5-b05b-4e83-9025-3f684bb3ad1c"
       } ],
       "related" : ""
+    }, {
+      "@id" : "http://6b007f68-c646-4416-be2c-fb217c6f062e",
+      "@type" : "sc:Canvas",
+      "label" : "Ben Lomond from Luss",
+      "height" : 4096,
+      "width" : 6144,
+      "images" : [ {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.st-andrews.ac.uk/iiif/2/43826~43826/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4096,
+          "width" : 6144,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.st-andrews.ac.uk/iiif/2/43826~43826",
+            "profile" : "http://iiif.io/api/image/2/level2.json"
+          }
+        },
+        "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e"
+      }, {
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "label" : "Luss [1940s]",
+          "@id" : "https://collections.st-andrews.ac.uk/iiif/2/376271~376271/full/full/0/default.jpg",
+          "format" : "image/jpeg",
+          "@type" : "dctypes:Image",
+          "width" : 3837,
+          "height" : 5216,
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b105111432/f1"
+          }
+        },
+        "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e#xywh=3953,927,1078,1045"
+      } ]
     } ]
   } ],
   "structures" : [ ]
-}{
-	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://c12e9c9d-6627-471c-8e12-a781cd27ad90",
-	"@type": "sc:Manifest",
-	"label": "Views of Loch Lomond",
-	"metadata": [],
-	"description": [
-		{
-			"@value": "Four views of Loch Lomond through different time periods. Three showing Ben Lomond from the bay at Luss.",
-			"@language": "en"
-		}
-	],
-	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-	"attribution": "Image courtesy of University of St Andrews Libraries and Museums",
-	"sequences": [
-		{
-			"@id": "http://d4112a27-1050-4d2b-9783-1fb1697c406a",
-			"@type": "sc:Sequence",
-			"label": "Normal Sequence",
-			"canvases": [
-				{
-					"@id": "http://091dbbd9-0e3c-41eb-a119-950a73733a25",
-					"@type": "sc:Canvas",
-					"label": "Ben Lomond from Firkin ",
-					"height": 2736,
-					"width": 3648,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://e3a7c806-8685-4220-b8cc-883739fb4e78",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://iiif.archivelab.org/iiif/img-20220426-085755/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://iiif.archivelab.org/iiif/img-20220426-085755",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json"
-									]
-								},
-								"height": 2736,
-								"width": 3648
-							},
-							"on": "http://091dbbd9-0e3c-41eb-a119-950a73733a25"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://605aed9e-cc8b-49d4-bfaa-c030527be0b6",
-					"@type": "sc:Canvas",
-					"label": "Ben Lomond from Luss",
-					"height": 1274,
-					"width": 1833,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://4c93d0de-e00a-460b-9592-dbdd058b1d46",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://collections.st-andrews.ac.uk/iiif/2/375797~375797/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://collections.st-andrews.ac.uk/iiif/2/375797~375797",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 2335242,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 1274,
-								"width": 1833
-							},
-							"on": "http://605aed9e-cc8b-49d4-bfaa-c030527be0b6"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://6b007f68-c646-4416-be2c-fb217c6f062e",
-					"@type": "sc:Canvas",
-					"label": "Ben Lomond from Luss (Mist)",
-					"height": 4096,
-					"width": 6144,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://06f27141-9eae-43cf-9372-06fa1ef64ab3",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://collections.st-andrews.ac.uk/iiif/2/43826~43826/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://collections.st-andrews.ac.uk/iiif/2/43826~43826",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 25165824,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 4096,
-								"width": 6144
-							},
-							"on": "http://6b007f68-c646-4416-be2c-fb217c6f062e"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://eb4902e5-b05b-4e83-9025-3f684bb3ad1c",
-					"@type": "sc:Canvas",
-					"label": "Ben Lomonf from Luss (1940s)",
-					"height": 3837,
-					"width": 5213,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://8d5df48c-3ba3-46fa-99f2-130bf99d0f7a",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "https://collections.st-andrews.ac.uk/iiif/2/376271~376271/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://collections.st-andrews.ac.uk/iiif/2/376271~376271",
-									"profile": [
-										"http://iiif.io/api/image/2/level2.json",
-										{
-											"formats": [
-												"jpg",
-												"tif",
-												"gif",
-												"png"
-											],
-											"maxArea": 20002281,
-											"qualities": [
-												"bitonal",
-												"default",
-												"gray",
-												"color"
-											],
-											"supports": [
-												"regionByPx",
-												"sizeByW",
-												"sizeByWhListed",
-												"cors",
-												"regionSquare",
-												"sizeByDistortedWh",
-												"canonicalLinkHeader",
-												"sizeByConfinedWh",
-												"sizeByPct",
-												"jsonldMediaType",
-												"regionByPct",
-												"rotationArbitrary",
-												"sizeByH",
-												"baseUriRedirect",
-												"rotationBy90s",
-												"profileLinkHeader",
-												"sizeByForcedWh",
-												"sizeByWh",
-												"mirroring"
-											]
-										}
-									]
-								},
-								"height": 3837,
-								"width": 5213
-							},
-							"on": "http://eb4902e5-b05b-4e83-9025-3f684bb3ad1c"
-						}
-					],
-					"related": ""
-				},
-				{
-					"@id": "http://6b007f68-c646-4416-be2c-fb217c6f062e",
-					"@type": "sc:Canvas",
-					"label": "Ben Lomond from Luss",
-					"height": 4096,
-					"width": 6144,
-					"images": [
-					  {
-						"@type": "oa:Annotation",
-						"motivation": "sc:painting",
-						"resource": {
-						  "@id": "https://collections.st-andrews.ac.uk/iiif/2/43826~43826/full/full/0/default.jpg",
-						  "@type": "dctypes:Image",
-						  "format": "image/jpeg",
-						  "height": 4096,
-						  "width": 6144,
-						  "service": {
-							"@context": "http://iiif.io/api/image/2/context.json",
-							"@id": "https://collections.st-andrews.ac.uk/iiif/2/43826~43826",
-							"profile": "http://iiif.io/api/image/2/level2.json"
-						  }
-						},
-						"on": "http://6b007f68-c646-4416-be2c-fb217c6f062e"
-					  },
-					  {
-						"@type":"oa:Annotation",
-						"motivation":"sc:painting",
-						"resource":{
-						  "label": "Luss [1940s]",
-						  "@id":"https://collections.st-andrews.ac.uk/iiif/2/376271~376271/full/full/0/default.jpg",
-						  "format":"image/jpeg",
-						  "@type":"dctypes:Image",
-						  "width":3837,
-						  "height":5216,
-						  "service":{
-							"@context":"http://library.stanford.edu/iiif/image-api/1.1/context.json",
-							"profile":"http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-							"@id":"https://gallica.bnf.fr/iiif/ark:/12148/btv1b105111432/f1"
-						  }
-						},
-						"on":"http://6b007f68-c646-4416-be2c-fb217c6f062e"
-					  }
-					]
-				  }
-			]
-		}
-	],
-	"structures": []
 }
