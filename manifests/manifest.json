@@ -115,6 +115,36 @@
       } ],
       "related" : ""
     }, {
+      "@id" : "http://eb4902e5-b05b-4e83-9025-3f684bb3ad1c",
+      "@type" : "sc:Canvas",
+      "label" : "Ben Lomonf from Luss (1940s)",
+      "height" : 3837,
+      "width" : 5213,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8d5df48c-3ba3-46fa-99f2-130bf99d0f7a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.st-andrews.ac.uk/iiif/2/376271~376271/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.st-andrews.ac.uk/iiif/2/376271~376271",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 20002281,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3837,
+          "width" : 5213
+        },
+        "on" : "http://eb4902e5-b05b-4e83-9025-3f684bb3ad1c"
+      } ]
+    }, {
       "@id" : "http://6b007f68-c646-4416-be2c-fb217c6f062e",
       "@type" : "sc:Canvas",
       "label" : "Ben Lomond from Luss",
