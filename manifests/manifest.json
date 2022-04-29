@@ -149,10 +149,10 @@
           "service" : {
             "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b105111432/f1"
+            "@id" : "https://collections.st-andrews.ac.uk/iiif/2/376271~376271"
           }
         },
-        "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e#xywh=10,10,10,10"
+        "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e#xywh=10,10,3837,5213"
       } ]
     } ]
   } ]
