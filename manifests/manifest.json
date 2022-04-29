@@ -10,6 +10,18 @@
   } ],
   "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution" : "Image courtesy of University of St Andrews Libraries and Museums",
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://091dbbd9-0e3c-41eb-a119-950a73733a25", "http://605aed9e-cc8b-49d4-bfaa-c030527be0b6", "http://6b007f68-c646-4416-be2c-fb217c6f062e", "http://6b007f68-c646-4416-be2c-fb217c6f062e" ]
+  } ],
   "sequences" : [ {
     "@id" : "http://d4112a27-1050-4d2b-9783-1fb1697c406a",
     "@type" : "sc:Sequence",
@@ -137,7 +149,7 @@
           "service" : {
             "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@id" : "https://view.nls.uk/iiif/2052/1247/205212470.5"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b105111432/f1"
           }
         },
         "on" : "http://6b007f68-c646-4416-be2c-fb217c6f062e#xywh=10,10,10,10"
